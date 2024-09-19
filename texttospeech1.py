@@ -31,6 +31,7 @@ def text_to_speech(text, language, filename="output.mp3"):
 
 # List of supported languages
 LANGUAGES = {
+    "English": "en",
     "Afrikaans": "af",
     "Arabic": "ar",
     "Bengali": "bn",
@@ -41,7 +42,6 @@ LANGUAGES = {
     "Danish": "da",
     "German": "de",
     "Greek": "el",
-    "English": "en",
     "Spanish": "es",
     "Estonian": "et",
     "Finnish": "fi",
