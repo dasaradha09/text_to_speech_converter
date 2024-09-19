@@ -94,7 +94,7 @@ LANGUAGES = {
 st.title("Text to Speech Converter")
 
 # Text area for text input
-text_input = st.text_area("Enter text here:")
+text_input = st.text_area("Enter text here or else upload file below:")
 
 # File uploader for DOCX and PDF
 uploaded_file = st.file_uploader("Upload a DOCX or PDF file", type=["pdf", "docx"])
